@@ -1,0 +1,18 @@
+<head>
+  <title>Chat App</title>
+</head>
+
+<body>
+{{>todos}}
+</body>
+
+
+<template name="todos">
+<p> Chat with friends </p>
+<div id="main"> 
+{{#each allTodos}}
+<li> {{text}} </li>
+{{/each}}
+</div>
+<input type="text" id="new-todo" placeholder="Type something" />
+</template>

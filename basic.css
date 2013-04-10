@@ -1,0 +1,23 @@
+/* CSS declarations go here */
+body {
+padding-left : 5%;
+padding-right : 5%;	
+	}
+	
+	
+div {
+max-height: 500px;
+overflow: auto;
+}	
+
+input{
+width:99%;
+margin-top:5px;	
+}
+
+li{
+list-style: none;
+background: #eee;
+padding: 5px;
+margin: 1px;	
+	}
